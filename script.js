@@ -45,7 +45,7 @@ function addRegHandler (){
   function addFormAlert(data){
     console.log ("data:", data);
     const {id,firstname, lastname, email, country, telephone, mensaje} = data;
-    window.alert (`id:${id},firstname:${firstname}, lastname:${lastname}, email:${email}, country:${country}, telephone:${telephone}, mensaje:${mensaje}`);
+    window.alert (`firstname:${firstname}, lastname:${lastname}, email:${email}, country:${country}, telephone:${telephone}, mensaje:${mensaje}`);
 }
 
  addListeners();
