@@ -48,4 +48,4 @@ function addRegHandler (){
     window.alert (`firstname:${firstname}, lastname:${lastname}, email:${email}, country:${country}, telephone:${telephone}, mensaje:${mensaje}`);
 }
 
- addListeners();
+  addListeners();   
